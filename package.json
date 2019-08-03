@@ -13,7 +13,7 @@
     "vex-js": "^4.1.0"
   },
   "scripts": {
-    "start": "parcel public/index.html --port 3000",
+    "start": "parcel public/index.html --port 3000 --out-dir .devserver",
     "build": "rimraf ./docs && parcel build public/index.html --out-dir docs"
   },
   "devDependencies": {
